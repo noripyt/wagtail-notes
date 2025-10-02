@@ -1102,7 +1102,7 @@ wheels = [
 
 [[package]]
 name = "wagtail-notes"
-version = "1.0.2"
+version = "1.0.3"
 source = { virtual = "." }
 dependencies = [
     { name = "wagtail-font-awesome-svg" },

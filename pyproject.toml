@@ -1,6 +1,6 @@
 [project]
 name = "wagtail-notes"
-version = "1.0.2"
+version = "1.0.3"
 authors = [
   { name="Bertrand Bordage", email="bordage.bertrand@gmail.com" },
 ]
