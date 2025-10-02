@@ -3,7 +3,7 @@
     window.draftail.initEditor(
         '#{{ widget.attrs.id|escapejs }}',
         {
-            {% if widget.options_json %}...{{ widget.options_json|safe }}{% endif %},
+            {% if widget.options_json %}...{{ widget.options_json|safe }},{% endif %}
             plugins: typeof NOTE_PLUGIN === "undefined" ? [] : [
                 NOTE_PLUGIN,
             ]
